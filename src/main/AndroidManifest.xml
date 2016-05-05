@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.indooratlas.android.sdk.examples"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.compass"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.gyroscope"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.wifi"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_KEY"
+            android:value="@string/indooratlas_api_key"/>
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_SECRET"
+            android:value="@string/indooratlas_api_secret"/>
+
+
+        <activity android:name="com.voyager.android.sdk.app.homeScreen.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.voyager.android.sdk.app.ListActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.voyager.android.sdk.app.heinzFloorMap.ImageViewActivity"
+            android:label="@string/example_imageview_title"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.voyager.android.sdk.app.googleMapsOverlay.MapsOverlayActivity"
+            android:label="@string/example_googlemaps_overlay_title"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>

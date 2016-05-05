@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Adithya/Desktop/mdt%20project/android-sdk-examples-master/Basic/build/generated/res/generated/androidTest/debug/values/generated.xml -->
+    <eat-comment/>
+    <string name="indooratlas_api_key">ec843987-4f33-4669-8ef9-a5c25958a19d</string>
+    <string name="indooratlas_api_secret">nrOON0MTMH1kakuULd6HQ!dh079Z8dsEdyUkh3)wQ4zp7Lz8cMkQRB)I\u0025JQQGTxUvtSRW34XKGfMRAAPWMpleWUDVVMDvobUki42gy4Bm9oSGk0XB3JoypF4y1FvQsRJ</string>
+    <string name="pubnub_publish_key">pub-c-3e53fad2-3e3d-480a-9e1a-d36fc6a27f81</string>
+    <string name="pubnub_subscribe_key">sub-c-200c707e-0525-11e6-bb6c-02ee2ddab7fe</string>
+</resources>

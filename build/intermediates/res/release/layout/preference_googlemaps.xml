@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditTextPreference android:title="Your Name"
+        android:key="username"
+        android:summary="Please provide your username"></EditTextPreference>
+
+</PreferenceScreen>
+<!-- From: file:/C:/Users/Adithya/Desktop/mdt%20project/android-sdk-examples-master/Basic/src/main/res/layout/preference_googlemaps.xml -->

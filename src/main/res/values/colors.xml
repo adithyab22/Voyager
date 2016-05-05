@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="platform_circle_fill">#33ff0000</color>
+    <color name="platform_circle">#ffff0000</color>
+    <color name="ia_blue">#ff00a5f5</color>
+    <drawable name="green_color">#269E48</drawable>
+    <drawable name="yellow_color">#E2E441</drawable>
+    <drawable name="blue_color">#4B74B9</drawable>
+
+</resources>

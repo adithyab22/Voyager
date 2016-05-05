@@ -1,0 +1,8 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_awesome_toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary" />
+<!-- From: file:/C:/Users/Adithya/Desktop/mdt%20project/android-sdk-examples-master/Basic/src/main/res/layout/toolbar.xml -->
