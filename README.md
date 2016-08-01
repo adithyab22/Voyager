@@ -13,7 +13,7 @@ This app currently has 2 activities:
 Summarized documentation:
 
 ListScreen:
-Has code to display the list of options to user plus to obtain the floor id and navigation details using IALocationManager.
+Displays the list of functional options to user. Obtain the floor id and navigation details uploaded on indooratlas website using IALocationManager.
 
 BlueDotView:
 Re-sizes the marker to help determine your exact location.
