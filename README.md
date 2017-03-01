@@ -2,6 +2,9 @@
 Demo app that lets you navigate indoors in CMU Heinz college by giving you real-time indoor positioning.
 To run the app, install the Basic-release.apk file under Voyager/Basic-release.apk on your android phone.
 
+Website:
+http://voyagernavigation.wix.com/home
+
 Function:
 This is a sample application to demonstrate the concept of indoor positioning using indooratlas SDK.
 Source: http://docs.indooratlas.com/android/
